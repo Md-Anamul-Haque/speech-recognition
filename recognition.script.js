@@ -1,4 +1,6 @@
-var speechrecognition = window.webkitSpeechRecognition
+var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+                
+//var speechrecognition = window.webkitSpeechRecognition
 var recognition = new speechrecognition()
 var textbox = $("textbox")
 var instructions =$("instructions")
